@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Generator</title>
+  <style>
+    body {
+      display: flex;
+    }
+
+    #left-half {
+      width: 50%;
+      padding: 20px;
+    }
+
+    #right-half {
+      width: 50%;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    #resume-content {
+      background: black;
+      color: yellow;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="left-half">
+    <h2>Input Boxes</h2>
+    <form id="input-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone"><br><br>
+      <!-- Add any additional input fields here -->
+    </form>
+  </div>
+
+  <div id="right-half">
+    <h2>Resume</h2>
+    <div id="resume-content">
+      <!-- The dynamically generated resume content will go here -->
+    </div>
+    <button id="download-button">Download PDF</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
