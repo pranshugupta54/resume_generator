@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+  }
+  
+  .input-section {
+    width: 50%;
+  }
+  
+  .preview-section {
+    width: 50%;
+  }
+  
