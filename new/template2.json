@@ -1,0 +1,101 @@
+{
+    "content": [
+      {
+        "text": "Resume",
+        "fontSize": 20,
+        "bold": true,
+        "marginBottom": 10
+      },
+      {
+        "text": "Personal Information",
+        "fontSize": 16,
+        "bold": true,
+        "marginBottom": 5,
+        "marginTop": 10
+      },
+      {
+        "columns": [
+          {
+            "width": "50%",
+            "text": [
+              {
+                "text": "Name: ",
+                "bold": true
+              },
+              {
+                "text": "",
+                "id": "name"
+              }
+            ]
+          },
+          {
+            "width": "50%",
+            "text": [
+              {
+                "text": "Email: ",
+                "bold": true
+              },
+              {
+                "text": "",
+                "id": "email"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "width": "50%",
+            "text": [
+              {
+                "text": "Phone: ",
+                "bold": true
+              },
+              {
+                "text": "",
+                "id": "phone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Education: ",
+        "fontSize": 16,
+        "bold": true,
+        "marginBottom": 5,
+        "marginTop": 10
+      },
+      {
+        "ul": [],
+        "id": "education",
+        "marginBottom": 10
+      },
+      {
+        "text": "Work Experience: ",
+        "fontSize": 16,
+        "bold": true,
+        "marginBottom": 5,
+        "marginTop": 10
+      },
+      {
+        "ul": [],
+        "id": "work-exp",
+        "marginBottom": 10
+      },
+      {
+        "text": "Skills: ",
+        "fontSize": 16,
+        "bold": true,
+        "marginBottom": 5,
+        "marginTop": 10
+      },
+      {
+        "ul": [],
+        "id": "skills",
+        "marginBottom": 10
+      }
+    ]
+  }
+  
